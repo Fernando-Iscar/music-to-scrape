@@ -14,7 +14,7 @@ WORKDIR /app
 COPY . /app
 
 # Install Python packages
-RUN pip install fastapi fastapi_utils sqlalchemy pydantic uvicorn gunicorn flask flask_sqlalchemy
+RUN pip install -r requirements.txt
 
 # Expose port
 EXPOSE 80
