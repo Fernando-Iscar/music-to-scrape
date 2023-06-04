@@ -103,5 +103,5 @@ dbWriteTable(con_flask, "listening", history, field.types = c(date = "TEXT"))
 
 dbDisconnect(con_flask)
 
-
+print("done")
 
